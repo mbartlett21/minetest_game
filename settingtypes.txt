@@ -1,0 +1,66 @@
+# This file contains settings of minetest_game that can be changed in
+# minetest.conf
+
+#    In creative mode players are able to dig all kind of blocks nearly
+#    instantly, and have access to unlimited resources.
+#    Some of the functionality is only available if this setting is present
+#    at startup.
+creative_mode (Creative mode) bool false
+
+#    This setting allows all players to access full creative inventory
+#    if creative is enabled for them
+creative_mode_full (Creative mode full) bool false
+
+#    Flammable nodes will be ignited by nearby igniters. Spreading fire may
+#    cause severe destruction.
+#    Spreading fire nodes will disappear when fire is disabled, but
+#    'permanent_flame' nodes are unaffected.
+#    This setting is disabled by default on servers.
+enable_fire (Fire) bool true
+
+#    Enable flame sound.
+flame_sound (Flame sound) bool true
+
+#    Enable lavacooling.
+enable_lavacooling (Lavacooling) bool true
+
+#    If enabled, steel tools and torches will be given to new players.
+give_initial_stuff (Give initial items) bool false
+
+#    If enabled, players respawn at the bed they last lay on instead of normal
+#    spawn.
+#    This setting is only read at startup.
+enable_bed_respawn (Respawn at bed) bool true
+
+#    If enabled, an admin page is added to the inventory popup that
+#    allows players with the server privilege to kick and ban players
+sfinv_admin (Admin inventory page) bool false
+
+#    If enabled, fences and walls cannot be jumped over.
+enable_fence_tall (Tall fences and walls) bool false
+
+#    When a bomb explodes, it destroys nearby nodes and damages nearby players.
+#    This setting is disabled by default on servers.
+enable_bomb (Bombs) bool true
+
+#    The radius in which nodes will be destroyed by a bomb explosion.
+bomb_radius (Bomb radius) int 3 0
+
+#    Makes moss grow on cobblestone blocks next to water.
+enable_moss_growth (Moss growth) bool true
+
+#    If enabled, use the engine's spawn search which does not check for a
+#    suitable starting biome.
+engine_spawn (Use engine spawn search) bool false
+
+#    If enabled, make the game run in realtime.
+enable_realtime (Realtime) bool false
+
+#    Delay for starting mesecons framework.
+mesecons_resumetime (Mesecons startup delay) int 4 1 10
+
+#    Interval of mesecons blinky plant turning off and on
+mesecons_blinky_plant_interval (Mesecons blinky plant interval) int 3 1 5
+
+#    The radius that player detector works in
+mesecons_player_detector_radius (Mesecons player detector scanning radius) int 6 3 16

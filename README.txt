@@ -1,0 +1,1 @@
+Minetest Game Redo is a rebuild of Minetest Game from the ground up, removing some nodes and adding others.

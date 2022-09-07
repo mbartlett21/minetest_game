@@ -1,0 +1,1 @@
+This is an edited version of the mesecons mod (github.com/minetest-mods/mesecons)
