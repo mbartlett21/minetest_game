@@ -44,5 +44,6 @@ dofile(default_path.."/item_entity.lua")
 dofile(default_path.."/craftitems.lua")
 dofile(default_path.."/crafting.lua")
 dofile(default_path.."/mapgen.lua")
+dofile(default_path.."/shadows.lua")
 
 print("[default] Loaded!")
