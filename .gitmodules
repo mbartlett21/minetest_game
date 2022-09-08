@@ -1,0 +1,4 @@
+[submodule "mods/airboat"]
+	path = mods/airboat
+	url = https://github.com/mbartlett21/airboat.git
+	branch = master
